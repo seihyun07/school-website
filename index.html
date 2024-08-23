@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>인덕원고등학교 학교 홈페이지 및 게시판</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sciencecube.com%2F%3Fmid%3Dsciencecube_educase_kor%26document_srl%3D5530&psig=AOvVaw2Jzg31XEq_OwiPeZdZXYg0&ust=1724478901796000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKjjpc-2iogDFQAAAAAdAAAAABAp" alt="School Logo">
+    <h1>인덕원고등학교</h1>
+    <nav>
+      <ul>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="homepage">
+      <h2>학교 홈페이지에 오신 것을 환영합니다.</h2>
+      <h3>>학교에 대해서 건의하고 싶은 내용에 대해서 작성하세요</h3>
+      
+      <p>2024.8.23</p>
+      <button id="show-bulletin-board">학교 게시판 열기</button>
+    </section>
+
+    <section id="bulletin-board" style="display: none;">
+      <section id="notices">
+        <h2>게시판</h2>
+        <ul>
+        </ul>
+      </section>
+
+      <section id="add-notice">
+        <h2>게시물 추가</h2>
+        <form>
+          <label for="notice-title">제목:</label>
+          <input type="text" id="notice-title" name="notice-title"><br><br>
+
+          <label for="notice-content">건의 내용:</label>
+          <textarea id="notice-content" name="notice-content"></textarea><br><br>
+
+          <input type="submit" value="게시물추가">
+        </form>
+      </section>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

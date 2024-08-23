@@ -1,0 +1,14 @@
+/* ... other styles ... */
+
+#bulletin-board {
+    display: none; /* Initially hide the bulletin board */
+  }
+  #header {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOA0vUPxLqaygmbd88wPoIZvnGvDEnyA9vCoGUwGy2pG4K-seYD6SZAFcRN9Y9WhqFg4&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px; /* Add padding to the header */
+    text-align: center; /* Center the content */
+  }
+  
+  /* ... other styles ... */
